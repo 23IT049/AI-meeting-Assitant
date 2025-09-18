@@ -1,0 +1,40 @@
+# Minimal Requirements - Install PyTorch separately
+# Use: python install_dependencies.py for automatic installation
+
+# Core Web Framework
+streamlit>=1.28.0
+
+# Speech Recognition (will install CPU PyTorch automatically)
+faster-whisper>=0.9.0
+
+# NLP and Text Processing
+transformers>=4.30.0
+spacy>=3.6.0
+keybert>=0.8.0
+sentence-transformers>=2.2.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# Audio Processing (install separately if issues)
+# pyaudio>=0.2.11
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# Visualization
+plotly>=5.15.0
+matplotlib>=3.7.0
+
+# API Integration
+wikipedia>=1.4.0
+requests>=2.31.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydub>=0.25.0
+
+# Optional - may require HuggingFace token
+# pyannote.audio>=3.1.0
+# datasets>=2.14.0
